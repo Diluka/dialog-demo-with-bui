@@ -41,6 +41,10 @@
                             case 0:
                                 BUI.Message.Alert("失败", "error");
                                 break;
+                            default :
+                                BUI.Message.Alert("请输入1或者0", "warning");
+                                planA_dialog_page.clearFields();
+                                break;
                         }
 
                     }
